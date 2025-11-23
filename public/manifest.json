@@ -1,0 +1,73 @@
+{
+  "name": "Guide16 - OAU Campus Companion",
+  "short_name": "Guide16",
+  "description": "Your lightweight campus companion for navigating OAU with ease. Step-by-step guides, locations, and FAQs - works offline!",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f0fdf4",
+  "theme_color": "#4ade80",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "utilities", "productivity"],
+  "dir": "ltr",
+  "lang": "en",
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Guide16 Home Screen"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tasks",
+      "short_name": "Tasks",
+      "description": "View step-by-step task guides",
+      "url": "/tasks",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Locations",
+      "short_name": "Locations",
+      "description": "Find campus locations",
+      "url": "/landmarks",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "FAQs",
+      "short_name": "FAQs",
+      "description": "Browse frequently asked questions",
+      "url": "/faqs",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [],
+  "iarc_rating_id": "",
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
